@@ -1,0 +1,100 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  font-family: arial;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #f3e9e7;
+  /* #ffb6c1 */
+}
+
+.div_foto_home{
+  max-width: 600px;
+  margin: auto;
+}
+
+.div_pai{
+  margin: auto;
+}
+
+/* Área da barra de navegação; */
+
+.navbar{
+  /* background-color: #ffb6c1; */
+  text-align: center;
+  margin: 1rem 0rem;
+}
+
+.navbar ul{
+  list-style: none;
+  display: flex;
+  flex: 1;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navbar li{
+  padding: 0.5rem 0rem;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #803440;
+  padding: 0.5rem 1rem;
+  border-left: 2px solid #803440;
+  border-right: 2px solid #803440;
+}
+
+.navbar a:hover{
+  background-color: #803440;
+  color: white;
+  transition: 0.3s;
+}
+
+.navbar a:focus{
+  background-color: #803440;
+  color: white;
+  transition: 0.3s;
+}
+
+/* Área do main; */
+
+.arteFeminina_home{
+  width: 100%;
+  /*max-width: 800px;*/
+}
+
+main{
+  text-align: center;
+  color: #803440;
+}
+
+main p{
+  text-align: justify;
+  margin: 0.5rem 1rem;
+}
+
+.titulo_h2{
+  background-color: #803440;
+  color: white;
+  margin: 0rem 2rem;
+}
+
+.bloco_conteudo{
+  height: 400px;
+}
+
+.bloco_conteudo p{
+  margin: 1rem 2rem;
+}
+
+#noticias{
+  background-color: white;
+}
