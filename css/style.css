@@ -15,8 +15,14 @@ body{
 }
 
 .div_foto_home{
+  background-image: url("../img/foto_home.jpeg");
   max-width: 600px;
+  height: calc(100vh - 8rem);
   margin: auto;
+  margin-bottom: 4rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .div_pai{
@@ -32,6 +38,7 @@ body{
 }
 
 .navbar ul{
+  height: 2rem;
   list-style: none;
   display: flex;
   flex: 1;
