@@ -16,13 +16,18 @@ body{
 
 .div_foto_home{
   background-image: url("../img/foto_home.jpeg");
-  max-width: 600px;
-  height: calc(100vh - 8rem);
+  height: calc(100vh - 3.75rem);
   margin: auto;
-  margin-bottom: 4rem;
+  /*margin-bottom: 3rem;*/
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
+  /*border: 2px solid black;*/
+}
+
+.arteFeminina_home{
+  display: none;
 }
 
 .div_pai{
@@ -104,4 +109,10 @@ main p{
 
 #noticias{
   background-color: white;
+}
+
+@media (min-width: 700px){
+  .div_foto_home{
+    background-size: 600px;
+  }
 }
