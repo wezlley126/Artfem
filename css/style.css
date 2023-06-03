@@ -34,8 +34,19 @@ body{
   margin-bottom: 2rem;
 }
 
+.creditos{
+  color: #803440;
+  display: grid;
+  justify-content: center;
+}
+
+.creditos a{
+  font-weight: bold;
+  color: #803440;
+}
+
 .div_foto_home{
-  background-image: url("../img/foto_home.jpeg");
+  background-image: url("../img/foto_home_original.png");
   height: calc(100vh - 3.75rem);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -74,6 +85,7 @@ main p{
 
 .navbar li{
   padding: 0.5rem 0rem;
+  min-width: 100px;
 }
 
 .navbar a{
@@ -111,8 +123,6 @@ main p{
 }
 
 .noticia_conteudo{
-  display: grid;
-  gap: 2.5rem;
   margin: 4rem auto;
   max-width: 700px;
   font-size: 1.2rem;
@@ -132,7 +142,7 @@ main p{
 .noticia_head{
   display: grid;
   gap: 2rem;
-  margin: 2rem 0rem;
+  margin: 2rem 2rem;
 }
 /*
 .noticia_foto:hover{
@@ -153,11 +163,17 @@ main p{
 
 p{
   text-indent: 2rem;
-  margin? 0px;
+  margin: 0px;
 }
 
 .objetivo_subtitulo{
   font-weight: bold;
+}
+
+.span_noticia_conteudo{
+  margin: 0rem 2rem;
+  display: grid;
+  gap: 2rem;
 }
 
 .titulo_h2{
