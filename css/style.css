@@ -16,7 +16,7 @@ html{
 }
 
 body{
-  background-color: #f3e9e7;
+  background-color: #F2EAE7;
   /* #ffb6c1 */
 }
 
@@ -143,6 +143,7 @@ main p{
   display: grid;
   gap: 2rem;
   margin: 2rem 2rem;
+  text-align: center;
 }
 /*
 .noticia_foto:hover{
@@ -174,6 +175,7 @@ p{
   margin: 0rem 2rem;
   display: grid;
   gap: 2rem;
+  text-align: left;
 }
 
 .titulo_h2{
